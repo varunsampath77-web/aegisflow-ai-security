@@ -1,0 +1,29 @@
+
+{
+  "invoice_agent": {
+    "allowed_actions": [
+      "read_invoice",
+      "summarize_invoice"
+    ],
+    "review_actions": [
+      "send_email"
+    ],
+    "denied_actions": [
+      "send_payment",
+      "delete_file"
+    ]
+  },
+  "assistant_agent": {
+    "allowed_actions": [
+      "read_invoice",
+      "summarize_invoice"
+    ],
+    "review_actions": [
+      "send_email"
+    ],
+    "denied_actions": [
+      "send_payment",
+      "delete_file"
+    ]
+  }
+}
